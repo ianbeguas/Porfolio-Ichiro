@@ -3,7 +3,7 @@ import {TypeAnimation} from 'react-type-animation'
 import { AiFillLinkedin, AiFillInstagram, AiFillGithub} from "react-icons/ai";
 
 const About = () => {
-  return (
+return (
     <div>
     <div className='my-7 sm:my-0 max-w-[1200px] h-screen mx-auto flex flex-col-reverse sm:flex-row justify-center align-center' id='about'>
         <div className='flex-col my-auto mx-auto'>
@@ -49,11 +49,11 @@ const About = () => {
         </div>
 
         <div className='my-auto sm: mt-20'>
-            <img className='w-[300px] sm:w-[600px] mx-auto h-auto bg-primary-color rounded-lg' src="/ianpic.png" alt="ianpic" />
+        <img className='w-[300px] sm:w-[600px] mx-auto h-auto bg-primary-color rounded-lg' src="/assets/ianpic.png" alt="ianpic" />
         </div>
         </div>
     </div>
-  )
-}
+);
+};
 
 export default About
