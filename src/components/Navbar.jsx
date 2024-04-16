@@ -15,7 +15,7 @@ const Navbar = () => {
                 <Link to="banner" smooth={true} duration={500} className="cursor-pointer hover:underline">Ichiro</Link>
             </h1>
             <ul className='hidden md:flex'>
-                <li className='p-5'><Link to="myAbout" smooth={true   } duration={500} className="cursor-pointer hover:underline hover:text-purple-600">About</Link></li>
+                <li className='p-5'><Link to="About" smooth={true   } duration={500} className="cursor-pointer hover:underline hover:text-purple-600">About</Link></li>
                 <li className='p-5'><Link to="skills" smooth={true} duration={500} className="cursor-pointer hover:underline  hover:text-purple-600">Skills</Link></li>
                 <li className='p-5'><Link to="projects" smooth={true} duration={500} className="cursor-pointer hover:underline  hover:text-purple-600">Projects</Link></li>
                 <li className='p-5'><Link to="contact" smooth={true} duration={500} className="cursor-pointer hover:underline  hover:text-purple-600">Contact</Link></li>
@@ -28,7 +28,7 @@ const Navbar = () => {
                     <Link to="banner" smooth={true} duration={500} className="cursor-pointer hover:underline">Ichiro</Link>
                 </h1>
                 <ul className='p-8 text-2xl'>
-                    <li className='p-5'><Link to="myAbout" smooth={true} duration={500} className="cursor-pointer hover:underline  hover:text-purple-600">About</Link></li>
+                    <li className='p-5'><Link to="About" smooth={true} duration={500} className="cursor-pointer hover:underline  hover:text-purple-600">About</Link></li>
                     <li className='p-5'><Link to="skills" smooth={true} duration={500} className="cursor-pointer hover:underline  hover:text-purple-600">Skills</Link></li>
                     <li className='p-5'><Link to="projects" smooth={true} duration={500} className="cursor-pointer hover:underline  hover:text-purple-600">Projects</Link></li>
                     <li className='p-5'><Link to="contact" smooth={true} duration={500} className="cursor-pointer hover:underline  hover:text-purple-600">Contact</Link></li>
