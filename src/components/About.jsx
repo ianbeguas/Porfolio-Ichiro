@@ -46,11 +46,9 @@ const About = () => {
                 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:bg-gray-800'>Download CV</a>
                     </div>
                 </div>
-
-                <div className='my-auto mt-20'>
+ <div className='my-auto mt-20'>
     <img className='w-[300px] sm:w-[600px] mx-auto h-auto bg-primary-color rounded-lg' src={process.env.PUBLIC_URL + "/assets/ianpic.png"} />
 </div>
-
             </div>
         </div>
     );
