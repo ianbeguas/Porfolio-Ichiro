@@ -7,7 +7,7 @@ import Contacts from './components/Contacts';
 import Works from './components/Works'
 import Experience from './components/Experience'
 import Footer from './components/Footer'
-import myAbout from './components/myAbout';
+import About from './components/About';
 
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
     <div className='font-mono bg-customBGgray'>
     <Navbar />
     <Banner />
-    <myAbout/>  
+    <About/>  
     <Experience/>
     <Works/>
     <Contacts/>

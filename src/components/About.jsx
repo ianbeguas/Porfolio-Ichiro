@@ -48,8 +48,9 @@ const About = () => {
                 </div>
 
                 <div className='my-auto mt-20'>
-                    <img className='w-[300px] sm:w-[600px] mx-auto h-auto bg-primary-color rounded-lg' src="/assets/ianpic.png" alt="ian" />
-                </div>
+    <img className='w-[300px] sm:w-[600px] mx-auto h-auto bg-primary-color rounded-lg' src="https://raw.githubusercontent.com/ianbeguas/Ichiro-Portfolio-React/main/public/image.png" alt="imageian" />
+</div>
+
             </div>
         </div>
     );
