@@ -48,7 +48,7 @@ const About = () => {
                 </div>
 
                 <div className='my-auto mt-20'>
-    <img className='w-[300px] sm:w-[600px] mx-auto h-auto bg-primary-color rounded-lg' src="/assets/ianpic.png" alt="imageian" />
+    <img className='w-[300px] sm:w-[600px] mx-auto h-auto bg-primary-color rounded-lg' src={process.env.PUBLIC_URL + "/assets/ianpic.png" />
 </div>
 
             </div>
