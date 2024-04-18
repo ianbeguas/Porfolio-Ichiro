@@ -10,7 +10,7 @@ const Navbar = () => {
     };
 
     return (
-        <div className='z-10 text-gray-300 flex justify-between items-center max-w-[1240px] mx-auto h-20 px-4 text-l fixed top-0 w-full bg-customBGgray'>
+        <div className='z-10 text-gray-300 flex justify-between items-center max-w-[1240px] mx-auto h-24 px-6 text-l'>
             <h1 className='text-3xl font-bold primary-color ml-4'>
                 <Link to="banner" smooth={true} duration={500} className="cursor-pointer hover:underline">Ichiro</Link>
             </h1>

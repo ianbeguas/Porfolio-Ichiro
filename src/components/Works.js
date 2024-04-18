@@ -3,7 +3,7 @@ import React from 'react';
 const Works = () => {
     return (
         <section className='bg-customBGgray' id='projects'>
-            <div className='pb-6 pt-20 max-w-[1200px] mx-auto bg'>
+            <div className='pb-6 pt-20 max-w-[1200px] mx-auto'>
                 <div className='mx-auto px-4 md:px-8'>
                     <div className="mb-4 flex items-center justify-between">
                         <div className="flex flex-col gap-4">

@@ -11,15 +11,6 @@ span,
 .bg-primary-color{
   background-image: linear-gradient(to right, #6b2b72, #6b2b72);
 }
-.icon-lg {
-  font-size: 3rem; /* Adjust the size as needed */
-}
-.icon-zoom {
-  transition: transform 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
-}
 
-.icon-zoom:hover {
-  transform: scale(1.2);
-}
 
 
