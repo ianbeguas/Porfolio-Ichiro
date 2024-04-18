@@ -3,7 +3,7 @@ import React from "react";
 const Experience = () => {
     return(
         <div className=" bg-customBGgray lg:py-20 sm:py-10" id="skills">
-            <h2 className="mb-8 text-3xl text-white text-center font-bold">My <span>Skills</span></h2>
+            <h2 className="mb-8 text-3xl text-white text-center font-bold">My <span>Experience</span></h2>
 
             <div className="mb-[20px] text-white bg-gray-700/20 p-4 rounded-3xl max-w-[300px] sm:max-w-[600px] mx-auto">
                 <p>Farm Management System</p>

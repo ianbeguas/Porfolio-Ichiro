@@ -7,11 +7,11 @@ const Works = () => {
                 <div className='mx-auto px-4 md:px-8'>
                     <div className="mb-4 flex items-center justify-between">
                         <div className="flex flex-col gap-4">
-                            <h2 className='text-4xl lg:text-5xl text-white font-bold'>
+                            <h2 className='text-3xl lg:text-5xl text-white font-bold'>
                                 My <span>Projects</span>
                             </h2>
                             <p className='text-white'>
-                                These are my projects in my On The Job training.
+                            These are my latest projects
                             </p>
                         </div>
                     </div>
