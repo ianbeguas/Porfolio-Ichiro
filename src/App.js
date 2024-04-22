@@ -8,6 +8,7 @@ import Experience from './components/Experience'
 import Footer from './components/Footer'
 import About from './components/About';
 import Hero from './components/Hero';
+import myExperience from './components/myExperience';
 
 
 
@@ -18,9 +19,10 @@ function App() {
     <Navbar />     
     <About/>  
     <Hero/>
-    <Experience/>
+    <Experience/>   
     <Works/>
-    <Contacts/>
+    <myExperience/>
+    <Contacts/> 
     <Footer/>
   </div>
   );

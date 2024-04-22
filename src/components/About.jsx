@@ -37,15 +37,7 @@ const About = () => {
                         <a href="https://github.com/ianbeguas">
                             <AiFillGithub />
                         </a>
-                    </div>
-
-                    <div className='relative inline-flex group my-3'>
-                        <div className='absolute transition-all duration-1000 opacity-70 shadow-inset-1 bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] rounded-xl blur-lg group-hover:opacity-100 group-hover:duration-200'></div>
-
-                        <a href="/assets/IanResume2024.pdf" download title='Download Resume' role='Button' className='w-[190px] h-[60px] relative inline-flex items-center justify-center px-6 py-3 text-lg font-bold text-white transition-all duration-200 bg-primary-color rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:bg-gray-800'>
-                            Download CV
-                        </a>
-                    </div>
+                        </div>
                 </div>
 
                 <div className='flex justify-center'>
