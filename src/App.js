@@ -3,12 +3,16 @@ import './App.css';
 import React from 'react';
 import Navbar from './components/Navbar';
 import Contacts from './components/Contacts';
-import Works from './components/Works'
-import Experience from './components/Experience'
-import Footer from './components/Footer'
+import Experience from './components/Experience'; 
+import Footer from './components/Footer';
 import About from './components/About';
 import Hero from './components/Hero';
-import myExperience from './components/myExperience';
+import Exp from './components/Exp';
+import Services from './components/Services';
+import ProgrammingLanguages from './components/ProgrammingLanguages'
+
+
+
 
 
 
@@ -19,9 +23,10 @@ function App() {
     <Navbar />     
     <About/>  
     <Hero/>
-    <Experience/>   
-    <Works/>
-    <myExperience/>
+    <Services/>
+    <Experience/>
+    <ProgrammingLanguages/> 
+    <Exp />
     <Contacts/> 
     <Footer/>
   </div>

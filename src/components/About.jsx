@@ -24,7 +24,7 @@ const About = () => {
                             repeat={Infinity}
                         />
                     </h1>
-                    <p className='text-lg font-bold text-gray-500 text-center sm:text-left lg:text-4xl md:text-2xl'>
+                    <p className='text-lg font-bold text-gray-500 text-center sm:text-left lg:text-3xl md:text-2xl'>
                         Turning pixels into experiences,<br />one line of code at a time.
                     </p>
                     <div className='text-4xl flex justify-center sm:justify-start gap-10 my-7 text-purple-600'>
