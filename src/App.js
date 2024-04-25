@@ -12,11 +12,6 @@ import Services from './components/Services';
 import ProgrammingLanguages from './components/ProgrammingLanguages'
 
 
-
-
-
-
-
 function App() {
   return (
     <div className='font-mono bg-customBGgray'>

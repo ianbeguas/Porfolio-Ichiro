@@ -11,6 +11,9 @@ span,
 .bg-primary-color{
   background-image: linear-gradient(to right, #6b2b72, #6b2b72);
 }
+.shadow-purple {
+  box-shadow: 0px 4px 10px rgba(128, 0, 128, 0.5); /* Adjust the values as needed */
+}
 
 
 

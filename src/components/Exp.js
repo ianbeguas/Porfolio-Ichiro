@@ -29,10 +29,7 @@ const Exp = () => {
 
   return (
     <div className="container mx-auto mb-5 max-w-[1200px] px-4 md:px-8" id='projects'>
-      <h1 className="text-3xl font-bold mb-4"> <span>Projects</span></h1>
-      <div className='text-white mb-5'>
-        <p>This is my latest project. View for more information...</p>
-      </div>
+      <h1 className="lg:text-5xl md:text-4xl sm:text-4xl text-2xl font-bold mb-4 my-10"> <span>Projects</span></h1> 
       <div className="relative">
         <button
           className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full"
