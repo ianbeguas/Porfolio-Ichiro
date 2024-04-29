@@ -26,8 +26,8 @@ const Services = () => {
 
 const ServiceCard = ({ icon, title, description }) => {
   return (
-    <div className="max-w-xs mx-4 my-8 bg-transparent hover:bg-purple-600 rounded-lg p-6 text-left shadow-md transition duration-300 ease-in-out transform hover:scale-105 sm:w-1/2 md:w-1/3 lg:w-1/4">
-      <div className="flex justify-start items-center text-3xl sm:text-4xl mb-4">
+    <div className="max-w-xs mx-4 my-8 bg-gray-700/20 hover:bg-purple-600 rounded-lg p-6 text-left shadow-md transition duration-300 ease-in-out transform hover:scale-105 sm:w-1/2 md:w-1/3 lg:w-1/4">
+      <div className="flex justify-start items-center text-3xl sm:text-4xl mb-4 ">
         <IconContext.Provider value={{ color: 'white' }}>
           {icon}
         </IconContext.Provider>

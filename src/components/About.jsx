@@ -38,7 +38,7 @@ const About = () => {
                         <a href="https://github.com/ianbeguas">
                             <AiFillGithub />
                         </a>
-                        </div>
+                     </div>
                 </div>
 
                 <div className='flex justify-center'>
