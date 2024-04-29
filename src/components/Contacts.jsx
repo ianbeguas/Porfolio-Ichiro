@@ -26,8 +26,8 @@ const Contacts = () => {
             </div>
           </div>
         </div>
-        <div className="bg-gray-800 sm:flex-1 ml-4">
-          <img src="/formalpic.png" alt="Your Image" className="max-w-full h-auto" />
+        <div className="bg-gray-800 sm:flex-1 ml-4 rounded-full ">
+          <img src="/formalpic.png" alt="Your Image" className="max-w-full h-auto rounded-full" />
         </div>
       </div>
     </div>
