@@ -3,7 +3,7 @@ import React from 'react';
 const ProgrammingLanguages = () => {
   return (
     <div id='skills' className="lg:text-center md:text-center sm:text-center text-center">
-      <h1 className="lg:text-5xl md:text-4xl sm:text-4xl text-2xl font-bold text-white mb-8">My<span>&lt;Languages&gt;</span></h1>
+      <h1 className="lg:text-5xl md:text-4xl sm:text-4xl text-2xl font-bold text-white mb-8">My<span>&lt;Skills&gt;</span></h1>
 
       <div className="flex flex-wrap justify-center items-center">
         <LanguageIcon icon="logos/html.png" />
