@@ -2,7 +2,7 @@ import React from "react";
 
 const Experience = () => {
     return (
-        <div className="bg-customBGgray lg:py-5 sm:py-10 sm:px-10 flex justify-center">
+        <div className="lg:py-5 sm:py-10 flex justify-center">
             <div className="max-w-4xl mx-auto sm:mx-4"> {/* Centering the container */}
                 <h2 className="mb-8 text-5xl text-white text-center font-bold"><span>Education</span></h2>
                 <div className="mb-4 lg:mb-20 text-white bg-gray-700 bg-opacity-20 rounded-3xl">

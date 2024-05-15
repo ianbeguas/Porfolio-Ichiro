@@ -38,13 +38,11 @@ const About = () => {
                         <a href="https://github.com/ianbeguas">
                             <AiFillGithub />
                         </a>
-                     </div>
+                        </div>
                 </div>
-
                 <div className='flex justify-center'>
                     <img className='w-[300px] sm:w-[500px] h-auto rounded-xl filter grayscale brightness-50' src={process.env.PUBLIC_URL + "/image.png"} alt="Portrait" />
                 </div>
-
             </div>
         </div>
     );

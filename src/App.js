@@ -21,11 +21,10 @@ function App() {
     <Services/>
     <Experience/>
     <ProgrammingLanguages/> 
-    <Exp />
+    <Exp/>
     <Contacts/> 
     <Footer/>
   </div>
   );
 }
-
 export default App;
