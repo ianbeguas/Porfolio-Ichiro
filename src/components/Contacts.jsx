@@ -3,7 +3,7 @@ import { FaEnvelope, FaPhone } from 'react-icons/fa';
 
 const Contacts = () => {
   return (
-    <div className="bg-customBGgray h-auto flex justify-center items-center my-10" id='contact'>
+    <div className="bg-gray-800 h-auto flex justify-center items-center my-10" id='contact'>
       <div className='max-w-[1200px] flex flex-col sm:flex-row justify-center items-center gap-12'>
         <div className="p-6 bg-gray-800 rounded-xl sm:flex-1 mr-4">
           <h1 className='text-4xl sm:text-5xl text-white'>
@@ -26,11 +26,11 @@ const Contacts = () => {
             </div>
           </div>
         </div>
-        <div className="bg-gray-800 sm:flex-1 ml-4 rounded-full">
+        <div className="bg-gray-800 sm:flex-1 ml-4 ">
   <img
     src="/formalpic.png"
     alt="Your Image"
-    className="max-w-full sm:max-w-xs h-auto rounded-full"
+    className="max-w-full sm:max-w-xs h-auto"
   />
 </div>
       </div>
