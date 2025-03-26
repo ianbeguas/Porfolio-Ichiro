@@ -16,8 +16,6 @@ const About = () => {
                                 1000,
                                 'Web Designer',
                                 1000,
-                                'UI/UX',
-                                1000,
                             ]}
                             wrapper='span'
                             speed={50}
@@ -41,7 +39,7 @@ const About = () => {
                         </div>
                 </div>
                 <div className='flex justify-center'>
-                    <img className='w-[300px] sm:w-[500px] h-auto rounded-xl filter grayscale brightness-50' src={process.env.PUBLIC_URL + "/image.png"} alt="Portrait" />
+                    <img className='w-[300px] sm:w-[500px] h-auto rounded-xl filter grayscale brightness-20' src={process.env.PUBLIC_URL + "/white-bg.jpg"} alt="Portrait" />
                 </div>
             </div>
         </div>

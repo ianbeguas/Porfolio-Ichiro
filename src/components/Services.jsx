@@ -1,26 +1,27 @@
 import React from 'react';
-import { FiGlobe, FiSmartphone, FiMonitor } from 'react-icons/fi';
+import { FiDatabase, FiCloud, FiMonitor } from 'react-icons/fi';
 import { IconContext } from 'react-icons';
 
 const Services = () => {
   return (
     <div className="flex flex-wrap justify-center">
-      <ServiceCard
-        icon={<FiGlobe />}
-        title="Web Development"
-        description="Crafting responsive and scalable web applications tailored to your needs."
-      />
-      <ServiceCard
-        icon={<FiSmartphone />}
-        title="App Development"
-        description="Building intuitive and feature-rich mobile applications for iOS and Android platforms."
-      />
-      <ServiceCard
-        icon={<FiMonitor />}
-        title="UI/UX Design"
-        description="Creating visually stunning and user-friendly websites with a focus on UI/UX design."
-      />
+        <ServiceCard
+          icon={<FiMonitor />}
+          title="UI Development"
+          description="Building modern and interactive web interfaces using Angular for seamless user experiences."
+        />
+        <ServiceCard
+          icon={<FiDatabase />}
+          title="Backend Development"
+          description="Developing robust and scalable server-side applications with Laravel, PHP, and MySQL."
+        />
+        <ServiceCard
+          icon={<FiCloud />}
+          title="Cloud & DevOps"
+          description="Deploying and managing applications using AWS services like S3, EC2, CloudFront, and Route 53."
+        />
     </div>
+
   );
 };
 

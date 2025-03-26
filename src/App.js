@@ -22,7 +22,7 @@ function App() {
     <Experience/>
     <ProgrammingLanguages/> 
     <Exp/>
-    <Contacts/> 
+    {/* <Contacts/>  */}
     <Footer/>
   </div>
   );
