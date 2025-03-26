@@ -14,8 +14,6 @@ const About = () => {
                             sequence={[
                                 'Web Developer',
                                 1000,
-                                'Web Designer',
-                                1000,
                             ]}
                             wrapper='span'
                             speed={50}
