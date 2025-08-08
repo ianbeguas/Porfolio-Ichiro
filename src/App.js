@@ -15,6 +15,7 @@ import ProgrammingLanguages from './components/ProgrammingLanguages'
 function App() {
   return (
     <div className='font-mono bg-customBGgray'>
+    <meta name="google-site-verification" content="jztEmNtoTFFvSWe_K6oFCQHo4jRCVgOuy9DHRbwYAIc" />
     <Navbar />     
     <About/>  
     <Hero/>
